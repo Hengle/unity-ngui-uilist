@@ -7,10 +7,21 @@ features:
 * support sub items with different size
 * reuse invisible items, good performance, which means you can show infinite items in the list smoothly
 
-![]([https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-normal-1.webm)
-![]([https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-normal-2.webm)
-![]([https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-normal-3.webm)
-![]([https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-circle.webm)
+<video width="480" height="360" autoplay loop controls>
+    <source src="https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-normal-1.webm">
+</video>
+
+<video width="480" height="360" autoplay loop controls>
+    <source src="https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-normal-2.webm">
+</video>
+
+<video width="480" height="360" autoplay loop controls>
+    <source src="https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-normal-3.webm">
+</video>
+
+<video width="480" height="360" autoplay loop controls>
+    <source src="https://orisox.com/2017/04/10/unity-ngui-uilist/uilist-circle.webm">
+</video>
 
 ## usage
 
