@@ -19,7 +19,7 @@ features:
 * assign a callback function to OnItemChanged action, everytime the sub items changed, it'll call the callback function, modify the item in this function
 * call Show() to show your content
 
-see Example in the project for details
+jump [this](https://orisox.com/2017/04/10/unity-ngui-uilist/)(chinese only) or example in project for details
 
 ## binary
 
