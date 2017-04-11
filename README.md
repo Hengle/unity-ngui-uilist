@@ -2,7 +2,7 @@
 
 a list container to extend ngui
 
-features:
+## features
 
 * support sub items with different size
 * reuse invisible items, good performance, which means you can show infinite items in the list smoothly
