@@ -828,11 +828,11 @@ namespace orisox.com
             }
         }
 
-        public virtual float GetItemPosition(int RealIndex)
+        public virtual float GetItemPositionInScene(int RealIndex)
         {
             if (items.ContainsKey(RealIndex))
             {
-                return GetItemPosition(items[RealIndex]);
+                return GetItemPositionInScene(items[RealIndex]);
             }
             else
             {
@@ -841,7 +841,7 @@ namespace orisox.com
             }
         }
 
-        protected virtual float GetItemPosition(UIListItem Obj)
+        protected virtual float GetItemPositionInScene(UIListItem Obj)
         {
             if (null != Obj)
             {
@@ -897,7 +897,7 @@ namespace orisox.com
                 if (Item.Value.gameObject.activeSelf)
                 {
                     var ItemSize = GetItemSize(Item.Value.widget);
-                    float Position = GetItemPosition(Item.Value);
+                    float Position = GetItemPositionInScene(Item.Value);
                     if (-ItemSize / 2 < Position && Position < ItemSize / 2)
                     {
                         return Item.Key;

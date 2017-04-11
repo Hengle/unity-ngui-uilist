@@ -11,8 +11,6 @@ namespace orisox.com
         {
             if (null != list)
             {
-                list.Init();
-                list.OnItemChanged = OnItemChanged;
                 TestSingleSample();
             }
         }
@@ -20,12 +18,16 @@ namespace orisox.com
         [ContextMenu("TestSingleSample")]
         void TestSingleSample()
         {
+            list.Init();
+            list.OnItemChanged = OnItemChanged;
             list.Show(100, 0);
         }
 
         [ContextMenu("TestMultiSample")]
         void TestMultiSample()
         {
+            list.Init();
+            list.OnItemChanged = OnItemChanged;
             list.Show(new UIListSampleData[5] { new UIListSampleData(0, 1, 0), new UIListSampleData(1, 2, 1), new UIListSampleData(2, 5, 0), new UIListSampleData(5, 8, 1), new UIListSampleData(8, 9, 0) }, 0);
         }
 
